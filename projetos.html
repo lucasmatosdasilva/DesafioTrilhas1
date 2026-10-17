@@ -3,115 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Projetos de Lucas Matos da Silva nas áreas de software, dados, sistemas embarcados e interfaces web.">
-  <meta name="theme-color" content="#0b3b8f">
+  <meta name="description" content="Projetos de Lucas Matos da Silva">
   <title>Projetos | Lucas Matos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="page-glow glow-one"></div>
-  <div class="page-glow glow-two"></div>
-
-  <header class="topbar">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html" aria-label="Página inicial">Lucas<span>.</span></a>
-      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav-links" id="main-nav" aria-label="Navegação principal">
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre mim</a>
-        <a class="active" href="projetos.html">Projetos</a>
-        <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer">Certificados</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="profile-banner container reveal is-visible">
-      <img class="profile-avatar" src="assets/lucas-matos.jpg" alt="Lucas Matos da Silva">
-      <div>
-        <span class="eyebrow">Perfil</span>
+  <main class="page">
+    <section class="page-card wide fade-in">
+      <div class="profile-top">
+        <img src="assets/lucas.jpg" alt="Lucas Matos da Silva" class="profile-photo small">
         <h1>Lucas Matos da Silva</h1>
         <p>Desenvolvedor Front-end no Programa Trilhas</p>
       </div>
-      <div class="profile-links">
-        <a href="https://github.com/lucasmatosdasilva" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-        <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+
+      <div class="text-content">
+        <h2>Meus projetos</h2>
       </div>
-    </section>
 
-    <section class="container projects-intro reveal">
-      <span class="section-kicker">Projetos</span>
-      <h2>Algumas coisas que já construí.</h2>
-      <p>Selecionei projetos que mostram diferentes lados da minha trajetória: desenvolvimento web, inteligência artificial, Internet das Coisas e sistemas embarcados.</p>
-    </section>
+      <div class="projects">
+        <article class="project">
+          <h3>Predição de Churn</h3>
+          <p>Projeto com análise de dados e inteligência artificial para identificar risco de cancelamento de clientes.</p>
+          <a href="https://github.com/lucasmatosdasilva/Projeto_Churn" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </article>
 
-    <section class="container project-list">
-      <article class="project-card reveal">
-        <div class="project-image">
-          <img src="assets/projeto-churn.svg" alt="Ilustração do projeto de predição de churn">
-        </div>
-        <div class="project-content">
-          <div class="project-topline"><span>01</span><span>IA + WEB</span></div>
-          <h3>Projeto MAXX — Predição de Risco de Churn</h3>
-          <p>Solução para apoiar a tomada de decisão por meio de inteligência artificial aplicada à análise de clientes. O projeto conta com front-end próprio, API e classificação de risco para apoiar ações de retenção.</p>
-          <div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Machine Learning</span></div>
-          <a class="project-button" href="https://github.com/lucasmatosdasilva/Projeto_Churn" target="_blank" rel="noopener noreferrer">Ver no GitHub <span>↗</span></a>
-        </div>
-      </article>
+        <article class="project">
+          <h3>Projeto Equatorial</h3>
+          <p>Sistema embarcado com sensores e IoT desenvolvido para auxiliar na segurança de eletricistas.</p>
+          <a href="https://github.com/lucasmatosdasilva/Projeto_Equatorial" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </article>
 
-      <article class="project-card reverse reveal">
-        <div class="project-image">
-          <img src="assets/projeto-equatorial.svg" alt="Ilustração do projeto wearable para segurança de eletricistas">
-        </div>
-        <div class="project-content">
-          <div class="project-topline"><span>02</span><span>IOT + EMBARCADOS</span></div>
-          <h3>Projeto Equatorial — Wearable IoT</h3>
-          <p>Protótipo vestível voltado à segurança ocupacional de eletricistas. A solução integra sensores, microcontrolador, comunicação via Wi-Fi e monitoramento remoto de informações relevantes.</p>
-          <div class="tech-list"><span>C/C++</span><span>IoT</span><span>MQTT</span><span>Sensores</span><span>Firmware</span></div>
-          <a class="project-button" href="https://github.com/lucasmatosdasilva/Projeto_Equatorial" target="_blank" rel="noopener noreferrer">Ver no GitHub <span>↗</span></a>
-        </div>
-      </article>
-
-      <article class="project-card reveal">
-        <div class="project-image">
-          <img src="assets/projeto-siga.svg" alt="Ilustração do Sistema Inteligente de Agricultura Familiar">
-        </div>
-        <div class="project-content">
-          <div class="project-topline"><span>03</span><span>WEB + AUTOMAÇÃO</span></div>
-          <h3>SIGA — Sistema Inteligente de Agricultura Familiar</h3>
-          <p>Sistema de baixo custo para monitoramento de variáveis ambientais em pequenas áreas produtivas. Os dados são exibidos em uma interface web e o sistema simula irrigação automática com servo motor.</p>
-          <div class="tech-list"><span>C</span><span>Raspberry Pi Pico W</span><span>Wi-Fi</span><span>Servidor Web</span><span>Sensores</span></div>
-          <a class="project-button" href="https://github.com/lucasmatosdasilva/Projeto-MARANDU-SIGA-" target="_blank" rel="noopener noreferrer">Ver no GitHub <span>↗</span></a>
-        </div>
-      </article>
-    </section>
-
-    <section class="container cta reveal">
-      <div>
-        <span class="section-kicker">Mais projetos</span>
-        <h2>Meu GitHub continua crescendo.</h2>
-        <p>Outros códigos, estudos e projetos também estão disponíveis no meu perfil.</p>
+        <article class="project">
+          <h3>SIGA</h3>
+          <p>Sistema para agricultura familiar com sensores ambientais, interface web e irrigação automatizada.</p>
+          <a href="https://github.com/lucasmatosdasilva/Projeto-MARANDU-SIGA-" target="_blank" rel="noopener noreferrer">Ver projeto</a>
+        </article>
       </div>
-      <a class="button primary" href="https://github.com/lucasmatosdasilva" target="_blank" rel="noopener noreferrer">Abrir GitHub <span>↗</span></a>
+
+      <a href="index.html" class="back-button">Voltar</a>
     </section>
   </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div>
-        <a class="brand footer-brand" href="index.html">Lucas<span>.</span></a>
-        <p>Portfólio desenvolvido para o Programa Trilhas.</p>
-      </div>
-      <div class="footer-links">
-        <a href="mailto:lucasmds2026@gmail.com">E-mail</a>
-        <a href="https://github.com/lucasmatosdasilva" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      </div>
-      <span class="copyright">© <span data-year></span> Lucas Matos</span>
-    </div>
-  </footer>
 
   <script src="js/script.js"></script>
 </body>

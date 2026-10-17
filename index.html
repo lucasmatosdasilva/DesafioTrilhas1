@@ -3,121 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio de Lucas Matos da Silva, desenvolvedor Front-end no Programa Trilhas.">
-  <meta name="theme-color" content="#0b3b8f">
+  <meta name="description" content="Portfólio de Lucas Matos da Silva">
   <title>Lucas Matos | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="page-glow glow-one"></div>
-  <div class="page-glow glow-two"></div>
+  <main class="home">
+    <section class="profile-card fade-in">
+      <img src="assets/lucas.jpg" alt="Lucas Matos da Silva" class="profile-photo">
 
-  <header class="topbar">
-    <div class="container nav-wrap">
-      <a class="brand" href="index.html" aria-label="Página inicial">Lucas<span>.</span></a>
-      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav-links" id="main-nav" aria-label="Navegação principal">
-        <a class="active" href="index.html">Início</a>
-        <a href="sobre.html">Sobre mim</a>
-        <a href="projetos.html">Projetos</a>
-        <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer">Certificados</a>
-      </nav>
-    </div>
-  </header>
+      <h1>Lucas Matos da Silva</h1>
+      <p class="subtitle">Desenvolvedor Front-end no Programa Trilhas</p>
 
-  <main>
-    <section class="hero container reveal is-visible">
-      <div class="hero-photo-wrap">
-        <div class="photo-accent"></div>
-        <img class="hero-photo" src="assets/lucas-matos.jpg" alt="Lucas Matos da Silva em uma avenida urbana">
-        <span class="status-pill"><span class="status-dot"></span>Portfólio 2026</span>
+      <div class="buttons">
+        <a href="sobre.html" class="main-button">Sobre mim</a>
+        <a href="projetos.html" class="main-button">Veja meus projetos</a>
+        <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer" class="main-button">Acesse meus certificados</a>
       </div>
 
-      <div class="hero-content">
-        <span class="eyebrow">Olá, eu sou</span>
-        <h1>Lucas Matos <span>da Silva</span></h1>
-        <p class="hero-role">Desenvolvedor Front-end no Programa Trilhas</p>
-        <p class="hero-text">Tecnologia, educação e desenvolvimento de soluções digitais fazem parte da minha trajetória. Aqui reuni um pouco sobre mim e alguns projetos que representam o que venho construindo.</p>
-
-        <div class="hero-actions">
-          <a class="button primary" href="sobre.html">Sobre mim <span aria-hidden="true">↗</span></a>
-          <a class="button secondary" href="projetos.html">Veja meus projetos</a>
-          <a class="button ghost" href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer">Veja meus certificados</a>
-        </div>
-
-        <div class="quick-tags" aria-label="Áreas de interesse">
-          <span>Front-end</span>
-          <span>Engenharia da Computação</span>
-          <span>Educação Digital</span>
-        </div>
-
-        <div class="social-row">
-          <a href="https://github.com/lucasmatosdasilva" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
-          <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="intro-strip reveal">
-      <div class="container strip-grid">
-        <div>
-          <span class="section-kicker">Meu caminho</span>
-          <h2>Aprendendo, criando e conectando áreas.</h2>
-        </div>
-        <p>Minha formação passa por desenvolvimento de sistemas, ciência de dados e sistemas embarcados. Hoje também levo tecnologia para a educação, enquanto avanço na área de Engenharia da Computação e no desenvolvimento Front-end.</p>
-      </div>
-    </section>
-
-    <section class="container featured reveal">
-      <div class="section-heading">
-        <div>
-          <span class="section-kicker">Destaques</span>
-          <h2>Projetos selecionados</h2>
-        </div>
-        <a class="text-link" href="projetos.html">Ver todos <span>→</span></a>
+      <div class="socials">
+        <a href="https://github.com/lucasmatosdasilva" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49v-1.73c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.66.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.72 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 6.92a9.3 9.3 0 0 1 2.5.34c1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.8c0 .27.18.59.69.49A10.23 10.23 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.94 8.5H3.56V19h3.38V8.5ZM5.25 3A1.96 1.96 0 1 0 5.25 6.92 1.96 1.96 0 0 0 5.25 3ZM20.44 12.98c0-3.16-1.69-4.63-3.94-4.63-1.82 0-2.63 1-3.08 1.7V8.5h-3.38V19h3.38v-5.2c0-1.37.26-2.7 1.96-2.7 1.68 0 1.7 1.57 1.7 2.79V19h3.36v-6.02Z"/>
+          </svg>
+        </a>
       </div>
 
-      <div class="featured-grid">
-        <article class="mini-card">
-          <div class="mini-number">01</div>
-          <h3>Predição de Churn</h3>
-          <p>Aplicação com inteligência artificial e interface web para apoiar decisões de retenção de clientes.</p>
-          <a href="https://github.com/lucasmatosdasilva/Projeto_Churn" target="_blank" rel="noopener noreferrer">Abrir projeto <span>↗</span></a>
-        </article>
-
-        <article class="mini-card">
-          <div class="mini-number">02</div>
-          <h3>Wearable IoT</h3>
-          <p>Solução embarcada voltada à segurança ocupacional, com sensores, conectividade e monitoramento remoto.</p>
-          <a href="https://github.com/lucasmatosdasilva/Projeto_Equatorial" target="_blank" rel="noopener noreferrer">Abrir projeto <span>↗</span></a>
-        </article>
-
-        <article class="mini-card">
-          <div class="mini-number">03</div>
-          <h3>SIGA</h3>
-          <p>Sistema inteligente de agricultura familiar com sensores, automação e uma interface web para monitoramento.</p>
-          <a href="https://github.com/lucasmatosdasilva/Projeto-MARANDU-SIGA-" target="_blank" rel="noopener noreferrer">Abrir projeto <span>↗</span></a>
-        </article>
-      </div>
+      <p class="footer">Feito por Lucas Matos</p>
     </section>
   </main>
-
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div>
-        <a class="brand footer-brand" href="index.html">Lucas<span>.</span></a>
-        <p>Portfólio desenvolvido para o Programa Trilhas.</p>
-      </div>
-      <div class="footer-links">
-        <a href="mailto:lucasmds2026@gmail.com">E-mail</a>
-        <a href="https://github.com/lucasmatosdasilva" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/lucasmatosdasilva/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      </div>
-      <span class="copyright">© <span data-year></span> Lucas Matos</span>
-    </div>
-  </footer>
 
   <script src="js/script.js"></script>
 </body>
