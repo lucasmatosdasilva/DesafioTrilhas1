@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Sistema Inteligente de Agricultura Familiar</title>
+  <desc id="desc">Ilustração abstrata de monitoramento agrícola com sensores e interface web.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071f48"/>
+      <stop offset="1" stop-color="#0f5fc9"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#64c99a"/>
+      <stop offset="1" stop-color="#d7ffe9"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" rx="40" fill="url(#bg3)"/>
+  <circle cx="740" cy="108" r="180" fill="#3f8cff" opacity=".16"/>
+  <rect x="80" y="86" width="740" height="454" rx="34" fill="#ffffff" opacity=".08" stroke="#ffffff" stroke-opacity=".14"/>
+  <rect x="112" y="118" width="360" height="278" rx="28" fill="#ffffff" opacity=".94"/>
+  <rect x="142" y="150" width="145" height="82" rx="18" fill="#f2f7ff"/>
+  <text x="162" y="180" fill="#0b3b8f" font-family="Arial, sans-serif" font-size="16" font-weight="700">UMIDADE</text>
+  <text x="162" y="215" fill="#061a3a" font-family="Arial, sans-serif" font-size="31" font-weight="800">72%</text>
+  <rect x="307" y="150" width="135" height="82" rx="18" fill="#f2f7ff"/>
+  <text x="326" y="180" fill="#0b3b8f" font-family="Arial, sans-serif" font-size="16" font-weight="700">TEMP.</text>
+  <text x="326" y="215" fill="#061a3a" font-family="Arial, sans-serif" font-size="31" font-weight="800">28°C</text>
+  <path d="M152 340 C210 290 260 330 312 270 C355 220 390 270 430 245" fill="none" stroke="#1f6ee9" stroke-width="8" stroke-linecap="round"/>
+  <path d="M602 452 C546 385 560 306 632 246 C704 307 718 386 662 452 C642 475 622 475 602 452Z" fill="url(#leaf)"/>
+  <path d="M632 448 V250" stroke="#0a5d54" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+  <path d="M631 360 C600 330 576 320 552 316 M633 322 C661 294 690 284 714 280" fill="none" stroke="#0a5d54" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+  <circle cx="632" cy="485" r="18" fill="#ffffff" opacity=".92"/>
+  <path d="M632 467 V433" stroke="#ffffff" stroke-width="6"/>
+  <text x="112" y="498" fill="#dceaff" font-family="Arial, sans-serif" font-size="19" font-weight="700">monitoramento • web • sensores • irrigação</text>
+</svg>
